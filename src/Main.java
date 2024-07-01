@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        {    System.out.println("Задача 1");
-            for (int i = 0; i < 10; i++) {
+        {
+            System.out.println("Задача 1");
+            for (int i = 1; i <= 10; i++) {
                 System.out.println(i);
             }
         }
@@ -64,8 +65,8 @@ public class Main {
             int salary = 29000;
             int total = 0;
             for (int i = 0; i < 12; i++) {
-                total = total + total / 100;
                 total = total + salary;
+                total = total + total / 100;
                 System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
             }
             System.out.println(total);
